@@ -1,0 +1,74 @@
+body{
+    background: rgb(237, 243, 253);
+}
+main{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.container{
+    width: 80vw;
+}
+.title{
+    font-size: 28px;
+    text-align: center;
+}
+.underline{
+    height: 7px;
+    background: lightblue;
+    width: 100px;
+    margin: -20px auto 0 auto;
+}
+.review{
+    background: white;
+    max-width: 600px;
+    display: grid;
+    place-items: center;
+    margin: 30px auto;
+    padding: 30px;
+    box-shadow: 3px 3px 15px rgba(27, 158, 219, 0.267);
+}
+.img-review{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: red;
+}
+#person-img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+#author{
+    font-weight: 900;
+    margin: 10px;
+}
+#job{
+    color: lightblue;
+    font-weight: 700;
+    margin: 0;
+}
+.button-container{
+    padding: 15px;
+}
+.prev-btn{
+    border: none;
+    background: none;
+    font-size: 27px;
+    margin: 7px;
+}
+.next-btn{
+    border: none;
+    background: none;
+    font-size: 27px;
+    margin: 7px;
+}
+.random-btn{
+    background: rgb(199, 235, 248);
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 9px;
+    
+}
